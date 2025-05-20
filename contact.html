@@ -3,164 +3,164 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Jose Galeas Portfolio</title>
     <link rel="stylesheet" href="homepage.css">
     <style>
-      
-        html{
-            background-color: grey ;
+        html {
+            background-color: grey;
             padding: 25px;
             font-family: Arial, Helvetica, sans-serif;
-            
         }
-        .container{
-          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-          background-color: black;  
-          max-width: 900px; 
-           margin: 0 auto;
-           padding: 45px; 
-           display: grid;
-         grid-template-columns: 1fr 1fr;
-           border-radius: 25px;
+        .container {
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            background-color: black;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 45px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            border-radius: 25px;
         }
-        .left-column{
-            margin: right;
-            border: right;
+        .left-column {
             font-size: 15px;
             padding: 5px;
-             background-color: grey;
-             border-radius: 5px;
-             box-sizing: border-box;
-             color: white;
+            background-color: grey;
+            border-radius: 5px;
+            box-sizing: border-box;
+            color: white;
         }
-        .right-column{
+        .right-column {
             font-size: 15px;
-            margin-left:30px;
-            border-left: 20px;
+            margin-left: 30px;
         }
         .header {
-        text-align: center;
-        margin-bottom: 25px;
-        color: white;
+            text-align: center;
+            margin-bottom: 25px;
+            color: white;
         }
         .required::after {
-     content: "*";
-     color: #ff4444;
-     margin-left: 4px;
-}
-
-      textarea {
-      resize: vertical;
-       min-height: 100px;
-}
-     .checkbox-group {
-     margin: 20px 0;
-       }
-     .checkbox-group input {
-     width: auto;
-      margin-right: 10px;
-}
-        .form-group{
-        margin-bottom: 20px;
-        width:100%;}
-
-        .label{
-        display: block;
-        margin-bottom: 8px;
-        color:black;
-        font-weight: 600;
-
-            }
+            content: "*";
+            color: #ff4444;
+            margin-left: 4px;
+        }
+        textarea {
+            resize: vertical;
+            min-height: 100px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .checkbox-group {
+            margin: 20px 0;
+        }
+        .checkbox-group input {
+            width: auto;
+            margin-right: 10px;
+        }
+        .form-group {
+            margin-bottom: 20px;
+            width: 100%;
+        }
+        .label {
+            display: block;
+            margin-bottom: 8px;
+            color: black;
+            font-weight: 600;
+        }
+        input[type="text"], input[type="email"], input[type="subject"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 12px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
         input:focus,
         select:focus,
         textarea:focus {
-        border-color: burlywood;
-    outline: none;
-               }
-        .header1 h1{  
-            margin: 0 0 10px 0 ;
+            border-color: burlywood;
+            outline: none;
+        }
+        .header1 h1 {
+            margin: 0 0 10px 0;
             font-size: 20px;
         }
         .header p {
-            color: #666;
+            color: #ccc;
             margin: 0;
             font-size: 18px;
         }
-        button { 
-            
-        width: 100%;
-        padding: 12px;
-       background: brown;
-       color: white;
-       border: none;
-       border-radius: 6px;
-       font-size: 16px;
-       font-weight: 500;
-        cursor: pointer;
-              }
-        
+        button {
+            width: 100%;
+            padding: 12px;
+            background: brown;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: 500;
+            cursor: pointer;
+        }
+        @media (max-width: 800px) {
+            .container {
+                display: block;
+                padding: 15px;
+            }
+            .right-column {
+                margin-left: 0;
+                margin-top: 30px;
+            }
+        }
     </style>
 </head>
 <body>
-  
-</head>
-<body>
-        <header>
-        <img src="Logo.png" width="150px" height="150px">
-        <ul class="nav-links">
-            <li><a href="homepage.html">Home</a></li>
-            <li><a href="projects.html">projects</a></li>
-            <li><a href="resume.html">resume</a></li>
-            <li><a href="contact.html">contact</a></li>
-
-        </ul>
-    </nav>
-</header>
+    <header>
+        <nav>
+            <img src="Logo.png" width="150" height="150" alt="Logo">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
     <div class="container">
         <div class="left-column">
             <h1>Jose Galeas</h1>
-            <p>coding student</p>
-      
+            <p>Coding student</p>
             <section>
-              <h2>contact</h2>
-              <hr />
-              <p>Email:jose.doe@example.com</p>
-              <p>phone:(555)123-4567</p>
-              <p>Location: San Fransico,CA</p>
-              <p>GiftHub.com/jose</p>
+                <h2>Contact</h2>
+                <hr>
+                <p>Email: jose.doe@example.com</p>
+                <p>Phone: (555) 123-4567</p>
+                <p>Location: San Francisco, CA</p>
+                <p><a href="https://github.com/jose" style="color: white;">github.com/jose</a></p>
             </section>
-            
-
         </div>
         <div class="right-column">
-    <div class="header">
-        <h1>contact information</h1>
-        <p>Fill in the details to get started </p>
-    </div>
-    <label for="lname">Full name </label>
-            <input type="text" id="fname" name="fname" placeholder="First Name" required>(*)</input>
-            <br>
-            <label id="email">Email Adress</label>
-            <br>
-            <input type="you@example.com" id="you@example.com name"placeholder="you@example.com" required>
-            <br>
-            <label for="subject">subject</label>
-            <br>
-            <input type="subject" id="subject" name="subject" placeholder="subject" required>
-         
-       <p>message</p>
-       <textarea> </textarea>
-       <br>
-       
-       <br>
-      <button type="submit">send message</button>  
-      </div>
-
-
+            <div class="header">
+                <h1>Contact Information</h1>
+                <p>Fill in the details to get started</p>
+            </div>
+            <form>
+                <label for="fname" class="required">Full Name</label>
+                <input type="text" id="fname" name="fname" placeholder="Full Name" required>
+                
+                <label for="email" class="required">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                
+                <label for="subject" class="required">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                
+                <label for="message" class="required">Message</label>
+                <textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
     </div>
     <footer>
-    <p>&copy 2024 Jose blog page all rights reserved  </p>
+        <p>&copy; 2024 Jose blog page. All rights reserved.</p>
     </footer>
-
 </body>
 </html>
