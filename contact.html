@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="homepage.css">
+    <style>
+      
+        html{
+            background-color: grey ;
+            padding: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        .container{
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+          background-color: black;  
+          max-width: 900px; 
+           margin: 0 auto;
+           padding: 45px; 
+           display: grid;
+         grid-template-columns: 1fr 1fr;
+           border-radius: 25px;
+        }
+        .left-column{
+            margin: right;
+            border: right;
+            font-size: 15px;
+            padding: 5px;
+             background-color: grey;
+             border-radius: 5px;
+             box-sizing: border-box;
+             color: white;
+        }
+        .right-column{
+            font-size: 15px;
+            margin-left:30px;
+            border-left: 20px;
+        }
+        .header {
+        text-align: center;
+        margin-bottom: 25px;
+        color: white;
+        }
+        .required::after {
+     content: "*";
+     color: #ff4444;
+     margin-left: 4px;
+}
+
+      textarea {
+      resize: vertical;
+       min-height: 100px;
+}
+     .checkbox-group {
+     margin: 20px 0;
+       }
+     .checkbox-group input {
+     width: auto;
+      margin-right: 10px;
+}
+        .form-group{
+        margin-bottom: 20px;
+        width:100%;}
+
+        .label{
+        display: block;
+        margin-bottom: 8px;
+        color:black;
+        font-weight: 600;
+
+            }
+        input:focus,
+        select:focus,
+        textarea:focus {
+        border-color: burlywood;
+    outline: none;
+               }
+        .header1 h1{  
+            margin: 0 0 10px 0 ;
+            font-size: 20px;
+        }
+        .header p {
+            color: #666;
+            margin: 0;
+            font-size: 18px;
+        }
+        button { 
+            
+        width: 100%;
+        padding: 12px;
+       background: brown;
+       color: white;
+       border: none;
+       border-radius: 6px;
+       font-size: 16px;
+       font-weight: 500;
+        cursor: pointer;
+              }
+        
+    </style>
+</head>
+<body>
+  
+</head>
+<body>
+        <header>
+        <img src="Logo.png" width="150px" height="150px">
+        <ul class="nav-links">
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="projects.html">projects</a></li>
+            <li><a href="resume.html">resume</a></li>
+            <li><a href="contact.html">contact</a></li>
+
+        </ul>
+    </nav>
+</header>
+    <div class="container">
+        <div class="left-column">
+            <h1>Jose Galeas</h1>
+            <p>coding student</p>
+      
+            <section>
+              <h2>contact</h2>
+              <hr />
+              <p>Email:jose.doe@example.com</p>
+              <p>phone:(555)123-4567</p>
+              <p>Location: San Fransico,CA</p>
+              <p>GiftHub.com/jose</p>
+            </section>
+            
+
+        </div>
+        <div class="right-column">
+    <div class="header">
+        <h1>contact information</h1>
+        <p>Fill in the details to get started </p>
+    </div>
+    <label for="lname">Full name </label>
+            <input type="text" id="fname" name="fname" placeholder="First Name" required>(*)</input>
+            <br>
+            <label id="email">Email Adress</label>
+            <br>
+            <input type="you@example.com" id="you@example.com name"placeholder="you@example.com" required>
+            <br>
+            <label for="subject">subject</label>
+            <br>
+            <input type="subject" id="subject" name="subject" placeholder="subject" required>
+         
+       <p>message</p>
+       <textarea> </textarea>
+       <br>
+       
+       <br>
+      <button type="submit">send message</button>  
+      </div>
+
+
+    </div>
+    <footer>
+    <p>&copy 2024 Jose blog page all rights reserved  </p>
+    </footer>
+
+</body>
+</html>
